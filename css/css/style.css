@@ -101,18 +101,18 @@ h4 {
 }
 
 a {
-    color: #0c4246;
+    color: #fff;
 }
 
 /* NAV */
 nav {
-    background: #aae0f8;
+    background:#000066;
     width: 100vw;
     height: 4.5rem;
     position: fixed;
     top: 0;
     z-index: 10;
-    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1.5rem 1.5rem rgba(0, 0, 0, 0.2);
 }
 
 nav .button {
@@ -138,9 +138,11 @@ nav .button {
     gap: 4rem;
 }
 
-
+.nav__items li a {
+    text-decoration: underline;
+}
 .nav__items li a:hover {
-  color: #184fe6;
+  text-decoration: none;
 }
 
 /*Body*/
@@ -188,12 +190,13 @@ justify-content: center;
     border-radius: 50px;
 }
 .featured_portolio_image a {
+    color:#000;
     text-decoration: underline;
     align-self: center;
 }
 .featured_portolio_image a:hover {
-    color:#184fe6;
     text-decoration: none;
+    color: #000066;
 }
 .resume__section {
     display: flex;
@@ -212,7 +215,8 @@ justify-content: center;
 }
 /* footer*/
 footer {
-    background: #aae0f8;
+    background: #000066;
+    color: #fff;
     padding: 1em;
     box-shadow: inset 0 1.5rem 1.5rem rgba(0, 0, 0, 0.2);
     text-align: center;
